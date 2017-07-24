@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1843AB3A557C48DDF64ABE87 /* Pods_MyCameraCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B98F714CB55226CB94C737D /* Pods_MyCameraCloud.framework */; };
+		5322D0971EF5E68100865AA2 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5322D0961EF5E68100865AA2 /* Start.storyboard */; };
+		5322D0991EF5E82D00865AA2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5322D0981EF5E82D00865AA2 /* SignInViewController.swift */; };
+		5322D09B1EF5F58C00865AA2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5322D09A1EF5F58C00865AA2 /* SignUpViewController.swift */; };
+		5322D09F1EF6178B00865AA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5322D09E1EF6178B00865AA2 /* HomeViewController.swift */; };
+		5322D0A11EF6179F00865AA2 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5322D0A01EF6179F00865AA2 /* PhotosViewController.swift */; };
+		5322D0A31EF623B900865AA2 /* Opening.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5322D0A21EF623B900865AA2 /* Opening.storyboard */; };
+		5322D0A51EF6286D00865AA2 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5322D0A41EF6286D00865AA2 /* Home.storyboard */; };
+		5322D0A71EF628A300865AA2 /* Photos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5322D0A61EF628A300865AA2 /* Photos.storyboard */; };
+		532527E51F10E15200570125 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532527E41F10E15200570125 /* DetailViewController.swift */; };
+		53360A7B1F0B139200223D18 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53360A7A1F0B139200223D18 /* PeopleViewController.swift */; };
+		53360A7D1F0B13FE00223D18 /* PeopleVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53360A7C1F0B13FE00223D18 /* PeopleVCTableViewCell.swift */; };
+		53360A7F1F0B290F00223D18 /* FollowAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53360A7E1F0B290F00223D18 /* FollowAPI.swift */; };
+		53360A811F0C6E5300223D18 /* HelperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53360A801F0C6E5300223D18 /* HelperService.swift */; };
+		53360A851F0C72CE00223D18 /* ConfigStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53360A841F0C72CE00223D18 /* ConfigStorage.swift */; };
+		53360A871F0CA25600223D18 /* FeedAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53360A861F0CA25600223D18 /* FeedAPI.swift */; };
+		53360A891F0CB47F00223D18 /* ProfileUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53360A881F0CB47F00223D18 /* ProfileUserViewController.swift */; };
+		53360A8B1F0E2E2E00223D18 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53360A8A1F0E2E2E00223D18 /* SettingsTableViewController.swift */; };
+		5338A76C1F0792820007729A /* HeaderProfileCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338A76B1F0792820007729A /* HeaderProfileCollectionReusableView.swift */; };
+		5338A76E1F07CAC70007729A /* User_PostAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338A76D1F07CAC70007729A /* User_PostAPI.swift */; };
+		5338A7701F08BBBD0007729A /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338A76F1F08BBBD0007729A /* PhotoCollectionViewCell.swift */; };
+		5354C1291EFF59F700A69AFA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5354C1281EFF59F700A69AFA /* Post.swift */; };
+		5354C12B1EFF91F700A69AFA /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5354C12A1EFF91F700A69AFA /* HomeTableViewCell.swift */; };
+		5392197C1F0343BE00897713 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392197B1F0343BE00897713 /* CommentViewController.swift */; };
+		5392197E1F03443E00897713 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392197D1F03443E00897713 /* CommentTableViewCell.swift */; };
+		539219801F0410DA00897713 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392197F1F0410DA00897713 /* Comment.swift */; };
+		53AFCAD31EF0BDDC002557FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AFCAD21EF0BDDC002557FC /* AppDelegate.swift */; };
+		53AFCADC1EF0BDDC002557FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AFCADB1EF0BDDC002557FC /* Assets.xcassets */; };
+		53AFCADF1EF0BDDC002557FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AFCADD1EF0BDDC002557FC /* LaunchScreen.storyboard */; };
+		53C811C61EF712DC00CFF643 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53C811C51EF712DC00CFF643 /* GoogleService-Info.plist */; };
+		53C811CE1EFAFE8500CFF643 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C811CD1EFAFE8500CFF643 /* DiscoverViewController.swift */; };
+		53C811D01EFAFE9600CFF643 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C811CF1EFAFE9600CFF643 /* ActivityViewController.swift */; };
+		53C811D21EFAFEA300CFF643 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C811D11EFAFEA300CFF643 /* ProfileViewController.swift */; };
+		53C811D41EFB04E900CFF643 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C811D31EFB04E900CFF643 /* Discover.storyboard */; };
+		53C811D61EFB054700CFF643 /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C811D51EFB054700CFF643 /* Activity.storyboard */; };
+		53C811D81EFB058200CFF643 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C811D71EFB058200CFF643 /* Profile.storyboard */; };
+		53CCC9261F01E7CD0099822C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCC9251F01E7CD0099822C /* User.swift */; };
+		53D143121F05BF7000C3A15E /* PostAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D143111F05BF7000C3A15E /* PostAPI.swift */; };
+		53D143161F05D6B800C3A15E /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D143151F05D6B800C3A15E /* UserAPI.swift */; };
+		53D1431C1F05DE4100C3A15E /* SharedAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D1431B1F05DE4100C3A15E /* SharedAPI.swift */; };
+		53D1431E1F05DF5A00C3A15E /* CommentAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D1431D1F05DF5A00C3A15E /* CommentAPI.swift */; };
+		53D143201F05E6DA00C3A15E /* Post_CommentAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D1431F1F05E6DA00C3A15E /* Post_CommentAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5322D0961EF5E68100865AA2 /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		5322D0981EF5E82D00865AA2 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5322D09A1EF5F58C00865AA2 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5322D09E1EF6178B00865AA2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5322D0A01EF6179F00865AA2 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		5322D0A21EF623B900865AA2 /* Opening.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Opening.storyboard; sourceTree = "<group>"; };
+		5322D0A41EF6286D00865AA2 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		5322D0A61EF628A300865AA2 /* Photos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Photos.storyboard; sourceTree = "<group>"; };
+		532527E41F10E15200570125 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		53360A7A1F0B139200223D18 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		53360A7C1F0B13FE00223D18 /* PeopleVCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleVCTableViewCell.swift; sourceTree = "<group>"; };
+		53360A7E1F0B290F00223D18 /* FollowAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowAPI.swift; sourceTree = "<group>"; };
+		53360A801F0C6E5300223D18 /* HelperService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperService.swift; sourceTree = "<group>"; };
+		53360A841F0C72CE00223D18 /* ConfigStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigStorage.swift; sourceTree = "<group>"; };
+		53360A861F0CA25600223D18 /* FeedAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedAPI.swift; sourceTree = "<group>"; };
+		53360A881F0CB47F00223D18 /* ProfileUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileUserViewController.swift; sourceTree = "<group>"; };
+		53360A8A1F0E2E2E00223D18 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		5338A76B1F0792820007729A /* HeaderProfileCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderProfileCollectionReusableView.swift; sourceTree = "<group>"; };
+		5338A76D1F07CAC70007729A /* User_PostAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User_PostAPI.swift; sourceTree = "<group>"; };
+		5338A76F1F08BBBD0007729A /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		5354C1281EFF59F700A69AFA /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		5354C12A1EFF91F700A69AFA /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		5392197B1F0343BE00897713 /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		5392197D1F03443E00897713 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		5392197F1F0410DA00897713 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		53AFCACF1EF0BDDC002557FC /* MyCameraCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCameraCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AFCAD21EF0BDDC002557FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53AFCADB1EF0BDDC002557FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53AFCADE1EF0BDDC002557FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53AFCAE01EF0BDDC002557FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C811C51EF712DC00CFF643 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53C811CD1EFAFE8500CFF643 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		53C811CF1EFAFE9600CFF643 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		53C811D11EFAFEA300CFF643 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		53C811D31EFB04E900CFF643 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		53C811D51EFB054700CFF643 /* Activity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Activity.storyboard; sourceTree = "<group>"; };
+		53C811D71EFB058200CFF643 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		53CCC9251F01E7CD0099822C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		53D143111F05BF7000C3A15E /* PostAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostAPI.swift; sourceTree = "<group>"; };
+		53D143151F05D6B800C3A15E /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		53D1431B1F05DE4100C3A15E /* SharedAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedAPI.swift; sourceTree = "<group>"; };
+		53D1431D1F05DF5A00C3A15E /* CommentAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentAPI.swift; sourceTree = "<group>"; };
+		53D1431F1F05E6DA00C3A15E /* Post_CommentAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post_CommentAPI.swift; sourceTree = "<group>"; };
+		6B98F714CB55226CB94C737D /* Pods_MyCameraCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCameraCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		907FC8EBF032AA5BDA489310 /* Pods-MyCameraCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCameraCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCameraCloud/Pods-MyCameraCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		C4F415328C66687DF428CFE5 /* Pods-MyCameraCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCameraCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyCameraCloud/Pods-MyCameraCloud.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53AFCACC1EF0BDDC002557FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1843AB3A557C48DDF64ABE87 /* Pods_MyCameraCloud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5354C1251EFC9D6B00A69AFA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5322D0981EF5E82D00865AA2 /* SignInViewController.swift */,
+				5322D09A1EF5F58C00865AA2 /* SignUpViewController.swift */,
+				5322D09E1EF6178B00865AA2 /* HomeViewController.swift */,
+				5392197B1F0343BE00897713 /* CommentViewController.swift */,
+				5322D0A01EF6179F00865AA2 /* PhotosViewController.swift */,
+				53C811CD1EFAFE8500CFF643 /* DiscoverViewController.swift */,
+				53C811CF1EFAFE9600CFF643 /* ActivityViewController.swift */,
+				53C811D11EFAFEA300CFF643 /* ProfileViewController.swift */,
+				53360A881F0CB47F00223D18 /* ProfileUserViewController.swift */,
+				53360A7A1F0B139200223D18 /* PeopleViewController.swift */,
+				53360A8A1F0E2E2E00223D18 /* SettingsTableViewController.swift */,
+				532527E41F10E15200570125 /* DetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5354C1261EFC9DF400A69AFA /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				5322D0961EF5E68100865AA2 /* Start.storyboard */,
+				5322D0A21EF623B900865AA2 /* Opening.storyboard */,
+				53C811D71EFB058200CFF643 /* Profile.storyboard */,
+				53C811D51EFB054700CFF643 /* Activity.storyboard */,
+				53C811D31EFB04E900CFF643 /* Discover.storyboard */,
+				5322D0A41EF6286D00865AA2 /* Home.storyboard */,
+				5322D0A61EF628A300865AA2 /* Photos.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		5354C1271EFF59A200A69AFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5354C1281EFF59F700A69AFA /* Post.swift */,
+				53CCC9251F01E7CD0099822C /* User.swift */,
+				5392197F1F0410DA00897713 /* Comment.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5354C12C1EFF921400A69AFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5354C12A1EFF91F700A69AFA /* HomeTableViewCell.swift */,
+				5392197D1F03443E00897713 /* CommentTableViewCell.swift */,
+				5338A76B1F0792820007729A /* HeaderProfileCollectionReusableView.swift */,
+				5338A76F1F08BBBD0007729A /* PhotoCollectionViewCell.swift */,
+				53360A7C1F0B13FE00223D18 /* PeopleVCTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		53AFCAC61EF0BDDC002557FC = {
+			isa = PBXGroup;
+			children = (
+				53AFCAD11EF0BDDC002557FC /* MyCameraCloud */,
+				53AFCAD01EF0BDDC002557FC /* Products */,
+				96DB11CE53E9469D2D330B06 /* Pods */,
+				59A1A07F0B383BC42E14B705 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53AFCAD01EF0BDDC002557FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53AFCACF1EF0BDDC002557FC /* MyCameraCloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53AFCAD11EF0BDDC002557FC /* MyCameraCloud */ = {
+			isa = PBXGroup;
+			children = (
+				53AFCAD21EF0BDDC002557FC /* AppDelegate.swift */,
+				53360A801F0C6E5300223D18 /* HelperService.swift */,
+				53360A841F0C72CE00223D18 /* ConfigStorage.swift */,
+				53D143151F05D6B800C3A15E /* UserAPI.swift */,
+				53D143111F05BF7000C3A15E /* PostAPI.swift */,
+				53D1431D1F05DF5A00C3A15E /* CommentAPI.swift */,
+				53D1431F1F05E6DA00C3A15E /* Post_CommentAPI.swift */,
+				5338A76D1F07CAC70007729A /* User_PostAPI.swift */,
+				53360A7E1F0B290F00223D18 /* FollowAPI.swift */,
+				53360A861F0CA25600223D18 /* FeedAPI.swift */,
+				53D1431B1F05DE4100C3A15E /* SharedAPI.swift */,
+				5354C1271EFF59A200A69AFA /* Model */,
+				5354C12C1EFF921400A69AFA /* Views */,
+				5354C1251EFC9D6B00A69AFA /* ViewControllers */,
+				5354C1261EFC9DF400A69AFA /* StoryBoards */,
+				53AFCAE01EF0BDDC002557FC /* Info.plist */,
+				53C811C51EF712DC00CFF643 /* GoogleService-Info.plist */,
+				53AFCADD1EF0BDDC002557FC /* LaunchScreen.storyboard */,
+				53AFCADB1EF0BDDC002557FC /* Assets.xcassets */,
+			);
+			path = MyCameraCloud;
+			sourceTree = "<group>";
+		};
+		59A1A07F0B383BC42E14B705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B98F714CB55226CB94C737D /* Pods_MyCameraCloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96DB11CE53E9469D2D330B06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				907FC8EBF032AA5BDA489310 /* Pods-MyCameraCloud.debug.xcconfig */,
+				C4F415328C66687DF428CFE5 /* Pods-MyCameraCloud.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53AFCACE1EF0BDDC002557FC /* MyCameraCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53AFCAE31EF0BDDC002557FC /* Build configuration list for PBXNativeTarget "MyCameraCloud" */;
+			buildPhases = (
+				65AF5BD7516528D5AF0C7A62 /* [CP] Check Pods Manifest.lock */,
+				53AFCACB1EF0BDDC002557FC /* Sources */,
+				53AFCACC1EF0BDDC002557FC /* Frameworks */,
+				53AFCACD1EF0BDDC002557FC /* Resources */,
+				5520F227E05E17099E1743E9 /* [CP] Embed Pods Frameworks */,
+				FAC74C30C0A859C84F9E98C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCameraCloud;
+			productName = MyCameraCloud;
+			productReference = 53AFCACF1EF0BDDC002557FC /* MyCameraCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53AFCAC71EF0BDDC002557FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = TurnToTech;
+				TargetAttributes = {
+					53AFCACE1EF0BDDC002557FC = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53AFCACA1EF0BDDC002557FC /* Build configuration list for PBXProject "MyCameraCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53AFCAC61EF0BDDC002557FC;
+			productRefGroup = 53AFCAD01EF0BDDC002557FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53AFCACE1EF0BDDC002557FC /* MyCameraCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53AFCACD1EF0BDDC002557FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5322D0A71EF628A300865AA2 /* Photos.storyboard in Resources */,
+				53C811D61EFB054700CFF643 /* Activity.storyboard in Resources */,
+				53C811D81EFB058200CFF643 /* Profile.storyboard in Resources */,
+				53C811D41EFB04E900CFF643 /* Discover.storyboard in Resources */,
+				53AFCADF1EF0BDDC002557FC /* LaunchScreen.storyboard in Resources */,
+				5322D0971EF5E68100865AA2 /* Start.storyboard in Resources */,
+				53C811C61EF712DC00CFF643 /* GoogleService-Info.plist in Resources */,
+				5322D0A51EF6286D00865AA2 /* Home.storyboard in Resources */,
+				5322D0A31EF623B900865AA2 /* Opening.storyboard in Resources */,
+				53AFCADC1EF0BDDC002557FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5520F227E05E17099E1743E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCameraCloud/Pods-MyCameraCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65AF5BD7516528D5AF0C7A62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAC74C30C0A859C84F9E98C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCameraCloud/Pods-MyCameraCloud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53AFCACB1EF0BDDC002557FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5338A76C1F0792820007729A /* HeaderProfileCollectionReusableView.swift in Sources */,
+				53360A851F0C72CE00223D18 /* ConfigStorage.swift in Sources */,
+				5322D09B1EF5F58C00865AA2 /* SignUpViewController.swift in Sources */,
+				53D143161F05D6B800C3A15E /* UserAPI.swift in Sources */,
+				53360A7F1F0B290F00223D18 /* FollowAPI.swift in Sources */,
+				53C811CE1EFAFE8500CFF643 /* DiscoverViewController.swift in Sources */,
+				53360A7B1F0B139200223D18 /* PeopleViewController.swift in Sources */,
+				53C811D01EFAFE9600CFF643 /* ActivityViewController.swift in Sources */,
+				539219801F0410DA00897713 /* Comment.swift in Sources */,
+				53360A7D1F0B13FE00223D18 /* PeopleVCTableViewCell.swift in Sources */,
+				5322D0991EF5E82D00865AA2 /* SignInViewController.swift in Sources */,
+				53AFCAD31EF0BDDC002557FC /* AppDelegate.swift in Sources */,
+				53C811D21EFAFEA300CFF643 /* ProfileViewController.swift in Sources */,
+				5338A7701F08BBBD0007729A /* PhotoCollectionViewCell.swift in Sources */,
+				53360A891F0CB47F00223D18 /* ProfileUserViewController.swift in Sources */,
+				5338A76E1F07CAC70007729A /* User_PostAPI.swift in Sources */,
+				5354C12B1EFF91F700A69AFA /* HomeTableViewCell.swift in Sources */,
+				53D1431C1F05DE4100C3A15E /* SharedAPI.swift in Sources */,
+				5354C1291EFF59F700A69AFA /* Post.swift in Sources */,
+				532527E51F10E15200570125 /* DetailViewController.swift in Sources */,
+				53360A871F0CA25600223D18 /* FeedAPI.swift in Sources */,
+				5392197E1F03443E00897713 /* CommentTableViewCell.swift in Sources */,
+				5392197C1F0343BE00897713 /* CommentViewController.swift in Sources */,
+				53360A811F0C6E5300223D18 /* HelperService.swift in Sources */,
+				53D143121F05BF7000C3A15E /* PostAPI.swift in Sources */,
+				53D1431E1F05DF5A00C3A15E /* CommentAPI.swift in Sources */,
+				5322D09F1EF6178B00865AA2 /* HomeViewController.swift in Sources */,
+				53360A8B1F0E2E2E00223D18 /* SettingsTableViewController.swift in Sources */,
+				53D143201F05E6DA00C3A15E /* Post_CommentAPI.swift in Sources */,
+				5322D0A11EF6179F00865AA2 /* PhotosViewController.swift in Sources */,
+				53CCC9261F01E7CD0099822C /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53AFCADD1EF0BDDC002557FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53AFCADE1EF0BDDC002557FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53AFCAE11EF0BDDC002557FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53AFCAE21EF0BDDC002557FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53AFCAE41EF0BDDC002557FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 907FC8EBF032AA5BDA489310 /* Pods-MyCameraCloud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MyCameraCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TurnToTech.MyCameraCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		53AFCAE51EF0BDDC002557FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F415328C66687DF428CFE5 /* Pods-MyCameraCloud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MyCameraCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TurnToTech.MyCameraCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53AFCACA1EF0BDDC002557FC /* Build configuration list for PBXProject "MyCameraCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AFCAE11EF0BDDC002557FC /* Debug */,
+				53AFCAE21EF0BDDC002557FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53AFCAE31EF0BDDC002557FC /* Build configuration list for PBXNativeTarget "MyCameraCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AFCAE41EF0BDDC002557FC /* Debug */,
+				53AFCAE51EF0BDDC002557FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53AFCAC71EF0BDDC002557FC /* Project object */;
+}

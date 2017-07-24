@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Photo Library-->
+        <scene sceneID="7dX-lq-6dH">
+            <objects>
+                <viewController id="lIv-Gn-Uyu" customClass="PhotosViewController" customModule="MyCameraCloud" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4io-g3-H5u"/>
+                        <viewControllerLayoutGuide type="bottom" id="LX3-HU-Hmz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9UO-n6-UWt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cga-NZ-M0C">
+                                <rect key="frame" x="0.0" y="64" width="375" height="120"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Add Caption" translatesAutoresizingMaskIntoConstraints="NO" id="7ct-2W-46E">
+                                        <rect key="frame" x="120" y="8" width="247" height="104"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="247" id="3Jy-yu-rSf"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default-photo-icon" translatesAutoresizingMaskIntoConstraints="NO" id="l8q-lo-meo">
+                                        <rect key="frame" x="8" y="8" width="104" height="104"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="104" id="yPn-bz-y9D"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.73028087615966797" green="0.73173105716705322" blue="0.77446883916854858" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="453-Gv-XaS"/>
+                                    <constraint firstItem="l8q-lo-meo" firstAttribute="leading" secondItem="cga-NZ-M0C" secondAttribute="leading" constant="8" id="9sw-bF-gdE"/>
+                                    <constraint firstAttribute="bottom" secondItem="l8q-lo-meo" secondAttribute="bottom" constant="8" id="K61-4E-6aK"/>
+                                    <constraint firstAttribute="bottom" secondItem="7ct-2W-46E" secondAttribute="bottom" constant="8" id="R1e-4g-eJ7"/>
+                                    <constraint firstItem="l8q-lo-meo" firstAttribute="top" secondItem="cga-NZ-M0C" secondAttribute="top" constant="8" id="Xux-D2-x8k"/>
+                                    <constraint firstItem="7ct-2W-46E" firstAttribute="top" secondItem="cga-NZ-M0C" secondAttribute="top" constant="8" id="biV-H2-CGW"/>
+                                    <constraint firstAttribute="trailing" secondItem="7ct-2W-46E" secondAttribute="trailing" constant="8" id="xR4-UY-NyS"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iu5-2g-3P0">
+                                <rect key="frame" x="16" y="560" width="335" height="50"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Qka-cE-QcU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Share">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.90142780170000003" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareButtonTouched:" destination="lIv-Gn-Uyu" eventType="touchUpInside" id="jdS-1r-ZKx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43921568630000002" green="0.4431372549" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="cga-NZ-M0C" firstAttribute="leading" secondItem="9UO-n6-UWt" secondAttribute="leading" id="5kQ-3o-Guc"/>
+                            <constraint firstItem="LX3-HU-Hmz" firstAttribute="top" secondItem="Iu5-2g-3P0" secondAttribute="bottom" constant="8" id="9JE-cY-D7y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Iu5-2g-3P0" secondAttribute="trailing" constant="8" id="Rw9-4v-68K"/>
+                            <constraint firstItem="Iu5-2g-3P0" firstAttribute="leading" secondItem="9UO-n6-UWt" secondAttribute="leadingMargin" id="WGL-Mk-mPp"/>
+                            <constraint firstAttribute="trailing" secondItem="cga-NZ-M0C" secondAttribute="trailing" id="bX9-2U-NqA"/>
+                            <constraint firstItem="cga-NZ-M0C" firstAttribute="top" secondItem="4io-g3-H5u" secondAttribute="bottom" id="pe5-MD-Vpk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Photo Library" id="Twy-oe-Do3">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="qpL-Yi-aRn">
+                            <connections>
+                                <action selector="cancel_touched:" destination="lIv-Gn-Uyu" id="Hnt-HS-vC5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="captionTextView" destination="7ct-2W-46E" id="wvX-Ft-dCm"/>
+                        <outlet property="photo" destination="l8q-lo-meo" id="EzD-Rr-llb"/>
+                        <outlet property="shareButton" destination="Iu5-2g-3P0" id="kca-qN-cqP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="agg-3Q-N1E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3280.8000000000002" y="25.637181409295355"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hHz-Vp-0Ep">
+            <objects>
+                <navigationController storyboardIdentifier="NavigationPhotos" automaticallyAdjustsScrollViewInsets="NO" id="Fyk-a7-xd7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="Photo" id="MUW-04-M3n">
+                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="-10"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics">
+                        <color key="tintColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </simulatedTabBarMetrics>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FjZ-tX-tBm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lIv-Gn-Uyu" kind="relationship" relationship="rootViewController" id="gj0-iC-jo2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9F1-ZN-9Fs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2198" y="26"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Photo" width="22" height="23"/>
+        <image name="default-photo-icon" width="75" height="75"/>
+    </resources>
+    <color key="tintColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+</document>
